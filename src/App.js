@@ -24,7 +24,6 @@ class App extends Component {
               <Link to="/dashboard"> dashboard </Link>
             </li>
           </ul>
-
           <Route exact path='/' component={HomeComponent}></Route>
           <Route exact path='/about' component={AboutComponent}></Route>
           <Route exact path='/dashboard' component={TeamComponent}></Route>
