@@ -88,7 +88,7 @@ mkdir drop
 echo "installing express module"
 npm i express
 echo "creating express_staic.js"
-wget -q https://gist.githubusercontent.com/gangularamya/de1ce2a5921ad0f2bd2339f6c63d77ef/raw/31abd062ab030f3e5b92bd24057eae1a7d54b24d/express_static.js -O /home/site/wwwroot/server.js
+wget -q https://gist.githubusercontent.com/gangularamya/de1ce2a5921ad0f2bd2339f6c63d77ef/raw/958e39ff49541ddadd9e3151489b2b3938e7974d/express_static.js -O /home/site/wwwroot/server.js
 
 # 3. KuduSync
 if [[ "$IN_PLACE_DEPLOYMENT" -ne "1" ]]; then
